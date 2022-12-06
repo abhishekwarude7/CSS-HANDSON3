@@ -1,0 +1,104 @@
+body{
+    background-color: teal;
+}
+.a{
+    text-align: center;
+    border: 10px solid brown;
+    background-color: white;
+    color: crimson;
+    font-size: 40px;
+    width: 600px;
+    margin: auto;
+    border-radius: 40px;
+    font-style: italic;
+}
+.b{
+    border: 10px solid red;
+    height: 950px;
+
+}
+
+.flex-container{
+    display: flex;
+}
+
+.flex-container > div {
+    text-align: center;
+    padding: 20px;
+    font-size: 27px;
+    border: 5px solid red;
+    color: black;
+    width: 250px;
+    border-radius: 20px;
+    justify-self: start;
+    margin: 200px;
+    margin-top: 50px;
+    background-color: antiquewhite;
+    
+}
+.c{
+        border-radius: 5px;
+        background-color: olive;
+        padding: 17px;
+        text-align: center;
+        border: 10px solid blue;
+        width: 630px;
+        height: 550px;
+        position: absolute;
+        right: 200px;
+        left: 350px;
+        margin-right: 50px;
+        margin-left: 70px;
+        bottom: -1200px;
+}
+.flex-container1{
+    display: flex;
+}
+.flex-container1 > div {
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    border: 1px solid red;
+    color: black;
+    width: 260px;
+    height: 190px;
+    border-radius: 1px;
+    margin: 10px;
+    background-color: rgb(240, 194, 130);
+}
+.flex-container2 {
+    display: flex;
+}
+.flex-container2 > div {
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+    border: 0px solid red;
+    color: black;
+    width: 1800px;
+    border-radius: 1px;
+    margin: 50px;
+    background-color: rgb(240, 194, 130);
+    margin-left: -300px;
+}
+
+
+
+.flex-container3 {
+    background-color: yellow;
+    border-radius: 10px;
+    border: 8px solid red;
+    width: 450px;
+    height: 70px;
+    text-align: center;
+    margin-left: 550px;
+    margin-bottom: -50px;
+    margin-top: -50px;
+    font-size: 20px;
+    padding: -20px;
+    margin: -150px -120px -15px 520px;
+    position: fixed;
+    z-index: 1;
+    color: red;
+    font-style: italic;
+}
